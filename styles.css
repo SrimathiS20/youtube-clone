@@ -1,7 +1,8 @@
 
 p{
     margin: 0%;
-}input{
+}
+input{
     display: block;
     margin-bottom: 10px;
 }
@@ -16,7 +17,7 @@ p{
 }
 .profile{
     width: 100%;
-    border-radius: 0%;
+    border-radius: 50%;
 }
 .channel-picture{
     display: inline-block;
