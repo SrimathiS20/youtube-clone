@@ -1,14 +1,16 @@
 p {
   margin: 0%;
-  font-family: "roboto",Arial;
+  font-family: "roboto", Arial;
 }
-.title{
+.title {
   font-size: 16px;
   font-weight: 500;
+  margin-bottom: 10px;
 }
-.channel,.views{
+.channel,
+.views {
   font-size: 14px;
-  color: gray;
+  color: #606060;
 }
 .search-bar {
   display: flex;
@@ -58,14 +60,15 @@ p {
   display: inline-block;
   width: 50px;
   vertical-align: top;
+  height: 50px;
 }
 .profile {
-  width: 100%;
+  width: 40px;
   border-radius: 100px;
+  height: 40px;
 }
 .video-content {
   display: inline-block;
   vertical-align: top;
   width: 345px;
-  
 }
