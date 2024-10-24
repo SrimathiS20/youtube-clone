@@ -1,6 +1,7 @@
 p {
   margin: 0%;
   font-family: "roboto", Arial;
+  padding: 0;
 }
 .title {
   font-size: 16px;
@@ -51,24 +52,18 @@ p {
   width: 100%;
   border-radius: 10px;
 }
-.video-preview {
-  width: 400px;
-  display: inline-block;
-  margin-right: 10px;
-}
-.channel-picture {
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
-  height: 50px;
-}
 .profile {
   width: 40px;
   border-radius: 100px;
   height: 40px;
 }
-.video-content {
-  display: inline-block;
-  vertical-align: top;
-  width: 345px;
+.video-info{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  row-gap: 20px;
 }
